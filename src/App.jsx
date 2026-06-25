@@ -12,7 +12,9 @@ function App() {
     <Nav />
     <Routes>
 
+
       <Route path="/" element={<Home />} />
+      <Route path="/membership" element={<Membership />} />
 
 
     </Routes>

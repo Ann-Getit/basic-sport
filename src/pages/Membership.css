@@ -1,0 +1,102 @@
+/*.    http://localhost:5173/basic-sport/#/membership    */
+
+
+body {
+    background-color: black;
+}
+.container1 {
+  
+    display: grid;
+    grid-template-columns: 400px auto;
+    padding: 50px 0;
+}
+
+
+.twinparent1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   background-color: black;
+
+   width: 400px;
+   justify-content: center;
+
+ 
+}
+
+.memberP {
+margin: 20px 0; 
+}
+
+.memberP2 {
+    font-size: 15px;
+     font-family: Inter, sans-serif;
+    font-weight: 300;
+}
+
+
+.buttonparent {
+margin: 0 auto;
+}
+.buttonparent button{
+ background-color: rgba(243, 172, 136, 0.094);
+    width: 200px;
+    height: 50px;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+
+
+
+button:hover {
+color: rgb(230, 110, 110);
+border: 2px solid rgb(230, 110, 110);
+}
+
+.parent1 {
+background-color: black;
+
+  display: flex;
+    justify-content: center;
+
+
+}
+
+
+ .image_member{
+  
+   border-radius: 599px 150px / 400px 20px ;
+   height: 75vh;
+   width: 80%;
+
+
+}
+
+
+@media screen and (max-width: 901px) {
+    .container1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .twinparent1 {
+        background-color:rgb(170, 145, 95) ;
+        color: black;
+        width: 100%;
+        padding: 10px 50px;
+    }
+
+     .buttonparent {
+        padding-bottom: 20px;
+     }
+    .buttonparent button {
+        color: black;
+        border: 2px solid black;
+        
+    }
+}
