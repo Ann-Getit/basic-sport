@@ -1,164 +1,58 @@
 
-.deeleen {
-  background-color: black;
-  margin-top: 50px;
-  padding: 20px;
-}
-
-.settings {
-    margin: 40px;
-
-
+footer {
+    background-color: black;
+    padding: 20px;
 }
 
 .whole {
 display: block;
+width: 400px;
 letter-spacing: 1px;
-text-align: center;
 
-
-max-width: 550px;
-width: 100%;
+margin: 0 auto;
 }
 
-
-
-/* HEADS */
-.tijd {
-
-  text-align: center;
-
+.whole h2 {
+  margin-bottom: 20px;
 }
-/* HEADS*/
-
-.info {
-    /*margin: 0 auto;
-     max-width: 900px;
-     width: 100%;
-     border: 1px solid red;*/
-
-      margin: 0px auto;
-
-     max-width: 450px;
-     width: 100%;
-    }
-
-
-.row {
-  /*
-display: grid;
-grid-template-columns: 200px 1fr;
-justify-content: center;
-border: 1px solid red;*/
-
-
-display: grid;
-grid-template-columns: 0 1fr;
-gap: 250px;
-
-justify-content: center;
-border:1px solid red;
+.row p {
+    display: grid;
+     grid-template-columns: 110px auto;
+     padding: 10px 0;
+      
 }
-
 .row span {
-  /*
-align-content: center;
-padding: 0;
-white-space: normal;
-border: 1px solid red;
-width: 100%;
-margin: 0 40px;*/
-
-align-content: center;
-padding: 10px 0px;
-white-space: normal;
-letter-spacing: 1px;
-
-margin: 0 20px;
-border: 1px solid red;
-width: 200px;
+    margin-left: 5px;
 }
-.rows {
-  margin: 0;
-  padding: 0;
+.rows p {
+    padding: 5px 0;
+}
+.tijdenbox {
+
+    width: 500px;
+    margin: 0 auto;
+}
+.settings {
+    margin: 40px;
+
+      justify-content: space-around;
+      
+}
+
+@media (min-width: 987px) {
+
   
-}
-.opening-hours {
-  margin: 5px 0;
-  padding: 0;
- 
-
-
-}
-  .tijdenbox {
-    margin: 0px auto;
-
-     max-width: 400px;
-     width: 100%;
-
-    }
-
-.rowss {
-display: grid;
-grid-template-columns: 0 1fr;
-gap: 150px;
-
-justify-content: center;
-
-}
-
-.rowss span {
-
-align-content: center;
-padding: 10px 0px;
-white-space: normal;
-letter-spacing: 1px;
-width: 150px;
-}
-
-@media (min-width: 1122px) {
     .settings {
         display: flex;
         flex-direction: row;
          align-content: center;
-    }
-/*
-    .whole {
-    display: flex;
-    flex-direction: column;
-    margin: 50px 0;
-
+      
     }
 
-    .row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
 
-.row span {
-  white-space: nowrap;
-margin-right: 50px;
-padding: 0;
 }
 
-.tijdenbox {
 
-  width: 50%;
-}
-
-    .rowss {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-.rowss span {
-white-space: nowrap;
-padding: 0;
-margin: 10px 15px;
-
-
-}*/
-
-  }
 
 
 
@@ -168,10 +62,9 @@ margin: 10px 15px;
     padding: 15px;
   text-align: center;
   font-size: 18px;
+
 }
-
-
-
 #copyright {
   width: 100%; 
+
 }

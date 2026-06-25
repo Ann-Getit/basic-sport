@@ -15,22 +15,28 @@ const Footer = () => {
             <div className="info">
         
                 <div className="row">
-                <span>Email:</span>
+                <p>Email:
                 <span>basicsport@example.com</span>
+                </p>
                 </div>
                 <div className="row">
-                <span>Tel:</span>
+                <p>Tel:
                 <span>0203948587</span>
+                </p>
                 </div>
                 <div className="row">
-                <span>Faxnummer:</span>
+                <p>Faxnummer:
                 <span>824574293</span>
+                </p>
                 </div>
                 <div className="row">
-                <span>instagram:</span>
+                <p>instagram:
                 <span>Basic&SportNL</span>
+                </p>
                 </div>
             </div>
+     
+
 
      
             <br></br>
@@ -52,33 +58,40 @@ const Footer = () => {
             <br></br>
             <h2 className="tijd">Openingstijden:</h2>
             <div className="opening-hours">
-                <div className="rowss">
-                   <span>maandag</span>
-                    <span>06:00 - 22:00</span>
+                <div className="row">
+                    <p>maandag
+                    <span>06:00  -  22:00</span>
+                    </p>
                 </div>
-                <div className="rowss">
-                    <span>dinsdag</span>
-                    <span>06:00 - 22:00</span>
+                <div className="row">
+                    <p>dinsdag
+                    <span>06:00  -  22:00</span>
+                    </p>
                 </div>
-                <div className="rowss">
-                    <span>woensdag</span>
-                    <span>06:00 - 22:00</span>
+                <div className="row">
+                    <p>woensdag
+                    <span>06:00  -  22:00</span>
+                    </p>
                 </div>
-                 <div className="rowss">
-                    <span>donderdag</span>
-                    <span>06:00 - 22:00</span>
+                 <div className="row">
+                    <p>donderdag
+                    <span>06:00  -  22:00</span>
+                    </p>
                 </div>
-                 <div className="rowss">
-                    <span>vrijdag</span>
-                    <span>06:00 - 22:00</span>
+                 <div className="row">
+                    <p>vrijdag
+                    <span>06:00  -  22:00</span>
+                    </p>
                 </div>
-                 <div className="rowss">
-                    <span>zaterdag</span>
-                    <span>08:00 - 22:00</span>
+                 <div className="row">
+                    <p>zaterdag
+                    <span>08:00  -  22:00</span>
+                    </p>
                 </div>
-                 <div className="rowss">
-                    <span>zondag</span>
-                    <span>08:00 - 22:00</span>
+                 <div className="row">
+                    <p>zondag
+                    <span>08:00  -  22:00</span>
+                    </p>
                 </div>
         
             </div>
