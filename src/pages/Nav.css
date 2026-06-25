@@ -3,6 +3,7 @@ nav {
     background-color: black;
     display: flex;
     padding: 0 5rem;
+    
 }
 .breedte {
   color: red;
@@ -25,6 +26,7 @@ position: relative;
 
     letter-spacing: 1px;
     z-index: 9999;
+    
     
 }
 
@@ -58,6 +60,7 @@ position: relative;
 
 .ams {
   font-weight: 800;
+  
 }
 
 
@@ -137,6 +140,7 @@ hr {
   margin: 0 auto;
     
 color: whitesmoke;
+
 }
 
 
@@ -144,6 +148,7 @@ color: whitesmoke;
     cursor: pointer;
     font-size: 40px;
     font-weight: 100;
+    
 
 }
 

@@ -6,6 +6,7 @@
 
      overflow: hidden;
   white-space: nowrap;
+  border: 1px solid red;
     
 }
 
@@ -45,6 +46,7 @@ img {
     width: 100%;
     object-fit: cover;
     height: 45rem;
+    border: 1px solid red;
 }
 
 
@@ -58,6 +60,7 @@ img {
     border-radius: 50px;
     font-size: 25px;
     cursor: pointer;
+    
 }
 
 button:hover {
@@ -72,7 +75,7 @@ border: 2px solid rgb(230, 110, 110);
 transform: translateY(-150%);
   width: 100%;
   height: 100px;
-
+  border: 1px solid red;
 }
 .imagewrapper {
   height: 45rem;
@@ -83,6 +86,7 @@ width: 100%;
 height: 20%;
 display: flex;
 background-color: rgb(170, 145, 95);
+border: 1px solid red;
 }
 
 .secondstroke {
@@ -90,12 +94,15 @@ width: 800px;
 padding: 50px 150px;
 height: 15%;
 margin: 0 auto;
+border: 1px solid red;
+
 }
 
 .positivetext {
   margin: 0 auto;
   font-size: 20px;
   color: black;
+  
 }
 
 @media screen and (max-width: 790px) {
@@ -125,6 +132,7 @@ margin: 0 auto;
   background-color: rgb(233, 228, 221);
   color: black;
   padding: 50px 50px;
+  border: 1px solid red;
 
 }
 
@@ -156,6 +164,7 @@ border: 1px solid rgb(170, 145, 95);
   font-size: 2rem;
   display: flex;
   
+  
 }
 
 p .span {
@@ -165,6 +174,7 @@ p .span {
   font-size: 0.45em;
   line-height: 0.5;
   margin-left: -1px;
+  
  
 }
 /*971*/
@@ -176,11 +186,13 @@ background-color: whitesmoke;
   margin-left: -156px;
   line-height: 3;
   
+  
 }
 .containerabo {
 
 width: 390px;
 margin: 0 auto;
+
 }
 
 
@@ -195,7 +207,7 @@ margin: 0 auto;
 .abobox p,  .span {
 /*letter-spacing: 2px;*/
 padding: 10px 0;
-margin: 0 30px 
+margin: 0 30px;
 
 }
 
@@ -210,6 +222,7 @@ margin: 0 30px
   display: flex;
 
   padding: 0 0 10px 0;
+  
 }
 
 .abobox button {
@@ -221,6 +234,7 @@ color: black;
 border-radius: 25%;
 font-weight: 600;
   border: none;
+  
 
 }
 
