@@ -17,12 +17,18 @@ const [mobile, setMobile] = useState(window.innerWidth <= 627);
         }
 };
 
+ if (open) {
+    document.body.classList.add("menu-open");
+  } else {
+    document.body.classList.remove("menu-open");
+  }
+
 window.addEventListener("resize", handleResize);
 
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [open]);
 
 
     return (
@@ -50,37 +56,58 @@ window.addEventListener("resize", handleResize);
             )}
             </div>
             <div className="navHeader">Basic & Sport</div>
+            <div className="nac">
+
+            </div>
 
 
-
-
-            {mobile && (
+            
         <div
           className="hamburger"
           onClick={() => setOpen(!open)}
         >
           &#9783;
         </div>
-      )}
-            <div className={`navbar ${open ? "active" : ""}`}>
-            <ul>
-                <li className="navlist">
-                    <p>Login </p>
-                    <hr />
-                    <p>Membership</p>
-                    <hr />
-                    <p>Grouplessons</p>
-                    <hr />
-                    <p>Daypas</p>
-                    <hr />
-                    <p >Locaties</p>
 
-                    <p className="locationheader">noorderplein</p>
-                    <p className="locationheader">westoomstraat</p>
-                    <p className="locationheader">oosterdokplein</p>
 
-                </li>
+            <div className={`navbardesk ${open ? "active" : ""}`}>
+            <ul className="navlistdesk">
+                 
+                    <li>Login </li>
+                    <hr />
+                    <li>Membership</li>
+                    <hr />
+                    <li>Grouplessons</li>
+                    <hr />
+                    <li>Daypas</li>
+           
+         
             </ul>
+            </div>
+      
+            <div className={`navbarmobile ${open ? "active" : ""}`}>
+            <ul className="navlist">
+                <li>Login</li>
+                    <hr />
+                    <li>Membership</li>
+                    <hr />
+                    <li>Grouplessons</li>
+                    <hr />
+                    <li>Daypas</li>
+                    <hr />
+                    <li className="locaties">choose locaties</li>
+
+                    <li className="locationheader">noorderplein</li>
+                    <hr />
+                    <li className="locationheader">westoomstraat</li>
+                    <hr />
+                    <li className="locationheader">oosterdokplein</li>
+                    <li>
+                       <img src="./pics/gym-svgrepo-com.svg" className="svgbar"/>  
+                    </li>
+            </ul>
+           
+
             </div>
         </nav>
        
