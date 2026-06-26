@@ -8,101 +8,94 @@ const Footer = () => {
 {/*<div className="breedte">
   {window.innerWidth}px
 </div>*/}
-<footer className="deeleen" id="contact">
-    <div className="settings">
-            <div className="whole">
-             <h2>Contact</h2>  
-            <div className="info">
-        
-                <div className="row">
-                <p>Email:
-                <span>basicsport@example.com</span>
-                </p>
-                </div>
-                <div className="row">
-                <p>Tel:
-                <span>0203948587</span>
-                </p>
-                </div>
-                <div className="row">
-                <p>Faxnummer:
-                <span>824574293</span>
-                </p>
-                </div>
-                <div className="row">
-                <p>instagram:
-                <span>Basic&SportNL</span>
-                </p>
-                </div>
-            </div>
+
+<footer id="contact">
+    <div className="whole">
+       <h2>Contact</h2> 
+    <div className="info">
+
+    <div className="contact-row">
+        <span>Email:</span>
+        <span>basicsport@example.com</span>
+    </div>
+    <div className="contact-row">
+        <span>Tel:</span>
+        <span>0203948587</span>
+    </div>
+    <div className="contact-row">
+        <span>Faxnummer:</span>
+        <span>824574293</span>
+    </div>
+    <div className="contact-row">
+        <span>instagram:</span>
+        <span>Basic&SportNL</span>
+    </div>
+        </div>
      
 
 
      
-            <br></br>
-            <br></br>
-            <div className="opening-hours">
+      <div className="list">
             <h2>More</h2>
-            <div className="rows">
+           
+                <ul>
+            <li>Blog</li>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Job vacancy</li>
+            </ul>
+            </div>
+            </div>
+    
 
-            <p>Blog</p>
-            <p>Privacy</p>
-            <p>Terms</p>
-            <p>Job vacancy</p>
-            </div>
-            </div>
-          </div>
     
         <div className="tijdenbox">
-            <br></br>
-            <br></br>
             <h2 className="tijd">Openingstijden:</h2>
             <div className="opening-hours">
                 <div className="row">
-                    <p>maandag
+                    <span>maandag</span>
                     <span>06:00  -  22:00</span>
-                    </p>
+                   
                 </div>
                 <div className="row">
-                    <p>dinsdag
+                    <span>dinsdag</span>
                     <span>06:00  -  22:00</span>
-                    </p>
+        
                 </div>
                 <div className="row">
-                    <p>woensdag
+                    <span>woensdag</span>
                     <span>06:00  -  22:00</span>
-                    </p>
+
                 </div>
                  <div className="row">
-                    <p>donderdag
+                    <span>donderdag</span>
                     <span>06:00  -  22:00</span>
-                    </p>
+        
                 </div>
                  <div className="row">
-                    <p>vrijdag
+                    <span>vrijdag</span>
                     <span>06:00  -  22:00</span>
-                    </p>
+       
                 </div>
                  <div className="row">
-                    <p>zaterdag
+                    <span>zaterdag</span>
                     <span>08:00  -  22:00</span>
-                    </p>
+       
                 </div>
                  <div className="row">
-                    <p>zondag
+                    <span>zondag</span>
                     <span>08:00  -  22:00</span>
-                    </p>
                 </div>
         
             </div>
         </div>
-        </div>
+
 
         <div id="copyright">
               <hr />  
       <p id="bottom">© 2026 Basic & Sport</p>
       </div>
-        </footer>
+</footer>
      
 
 

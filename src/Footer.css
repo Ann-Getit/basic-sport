@@ -1,62 +1,131 @@
-
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: black;
-    padding: 20px;
+    gap: 40px;
+    padding: 40px;
  
 }
 
 .whole {
-display: block;
-width: 400px;
+max-width: 400px;
+width: 100%;
 letter-spacing: 1px;
 
-margin: 0 auto;
 
 }
+
 
 .whole h2 {
   margin-bottom: 20px;
+  text-align: center;
+
 }
-.row p {
+
+.contact-row {
     display: grid;
-     grid-template-columns: 110px auto;
-     padding: 10px 0;
-
-      
-}
-.row span {
-    margin-left: 5px;
-
-     width: 100px /*als problemen op mobile view dit aanpassen !!!! ----*/
-}
-.rows p {
-    padding: 5px 0;
+    grid-template-columns: 120px 1fr;
+    padding: 8px 0;
 
 }
+
+
+.contact-row span {
+
+    /*display: block;*/
+    width: 100%;
+    margin: 0 ;
+    padding:0;
+
+}
+
+.contact-row span:first-child {
+    text-align: left;
+}
+
+.contact-row span:last-child {
+    text-align: left;
+}
+
+.info {
+    width: fit-content; /* zorgt ervoor dat de border zelfde grote heeft als de content -----*/
+    padding-left: 36px;
+    padding-bottom: 60px;
+
+}
+
+
+
+
+
+
+
+.list {
+
+    text-align: center;
+}
+
+
+.list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tijdenbox {
-
     max-width: 400px;
-    margin: 0 auto;
-}
-.settings {
-    margin: 40px;
-
-      justify-content: space-around;
-      
+    width: 100%;
 }
 
-@media (min-width: 987px) {
-
-  
-    .settings {
-        display: flex;
-        flex-direction: row;
-         align-content: center;
-      
-    }
-
+.tijd {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
 
 }
+
+
+.row {
+      display: grid;
+    grid-template-columns: 120px 1fr;
+
+    width: fit-content;
+    margin-left: 90.85px;
+    
+    padding: 10px 0;
+
+}
+
+.row span {
+    width: 100%;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+
+   
+
+}
+
+
+
+
+
+
 
 
 
@@ -68,9 +137,21 @@ margin: 0 auto;
     padding: 15px;
   text-align: center;
   font-size: 18px;
-
 }
-#copyright {
-  width: 100%; 
 
+
+#copyright {
+   grid-column: 1 / -1; /*dit zorgt ervoor dat je content niet breekt wanneer je meerdere layout hebt. */
+}
+
+
+
+@media (min-width: 987px) {
+
+  
+}
+@media (max-width: 900px) {
+    footer {
+        grid-template-columns: 1fr;
+    }
 }
