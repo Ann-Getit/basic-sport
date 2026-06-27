@@ -222,9 +222,8 @@ font-weight: 600;
 
 }
 
-/*
-.abobox button:hover{
-  background-color: rgba(243, 172, 136, 0.57);
-  border:  1px solid rgba(5, 5, 5, 0.955);
-}*/
-
+@media (max-width: 499px) {
+  .paragrafstroke {
+    font-size: 10px;
+  }
+}
