@@ -16,7 +16,7 @@ return (
 <div className="logincontainer">
 
 <div className="inputcontainer">
-    <p className="registertext">register by basic&sport</p>
+    <p className="registertext">register by basic & sport</p>
   <div className="inputbox">
   <input type="text" placeholder="emailadress or username"/>
   </div>

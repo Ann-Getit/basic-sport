@@ -100,7 +100,7 @@ height: 300px;
 
 
 .buttonlogin:hover{
-     background-color: rgba(243, 172, 136, 0.816);
+     background-color: rgba(243, 172, 136, 0.708);
 }
 
 .buttonlogin2:hover{
@@ -109,24 +109,35 @@ height: 300px;
 
 
 
+
 @media (max-width: 796px) {
 .logincontainer {
-     display: grid;
-     grid-template-columns: 1fr;
-
-     
+    display: flex;
+    justify-content: center;
 }
 .inputcontainer {
 
     margin: 0;
-    padding: 50px 0 100px 0;
+    padding: 50px 30px 100px 30px;
 }
 
+.line {
+    display: none;
+}
 .afbeelding {
 display: none;
 }
-
-
+.buttonlogin2 {
+    color: white;
+    background-color: black;
+}
+.buttonlogin2:hover {
+    background-color: rgba(245, 245, 245, 0.916);
+    color: black;
+}
+.buttonlogin:hover {
+    border: none;
+}
 }
 
 @media (max-width: 499px) {
