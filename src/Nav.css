@@ -125,9 +125,9 @@ display: block;
    z-index: 9999;
     
   background-color: rgb(30, 29, 29);
-  max-width: 20%;
+  max-width: 30%;
   width: 100%;
-  max-height: 40%;
+  max-height: 50%;
   height: 100%;
   padding: 10px;
   justify-content: center;
@@ -142,7 +142,11 @@ display: block;
   padding-left: 10px;
   font-size: 16px;
 }
-.navlistdesk li:hover {
+.navlistdesk a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.navlistdesk a:hover {
   color: rgba(248, 245, 245, 0.653);
 }
 
@@ -183,11 +187,15 @@ overflow: hidden;
 }
 
 .navlist li {
-  padding: 15px;
-  font-size: 20px;
+  padding: 14px;
+  font-size: 17px;
   list-style: none;
 }
-.navlist li:hover {
+.navlist a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.navlist a:hover {
   color: rgba(243, 171, 136, 0.864);
 }
 

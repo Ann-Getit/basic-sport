@@ -1,11 +1,15 @@
 import { useState, useEffect } from "react";
 import "./Nav.css";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
 const [open, setOpen] = useState(false);
 const [showLocations, setShowLocations] = useState(false);
 const [mobile, setMobile] = useState(window.innerWidth <= 627);
     
+  const closeMenu = () => {
+    setOpen(false);
+  };
 
     useEffect(() => {
     const handleResize = () => {
@@ -73,13 +77,25 @@ window.addEventListener("resize", handleResize);
             <div className={`navbardesk ${open ? "active" : ""}`}>
             <ul className="navlistdesk">
                  
-                    <li>Login </li>
+                    <li>
+                      <Link to="/home">Home</Link>
+                      </li>
                     <hr />
-                    <li>Membership</li>
+                    <li>
+                      <Link to="/login">Login </Link>
+                      </li>
                     <hr />
-                    <li>Grouplessons</li>
+                    <li>
+                      <Link to="/membership">Membership</Link>
+                      </li>
                     <hr />
-                    <li>Daypas</li>
+                    <li>
+                      <Link to="/grouplessons">Grouplessons</Link>
+                      </li>
+                    <hr />
+                    <li>
+                      <Link to="/membership">Daypas</Link>
+                      </li>
            
          
             </ul>
@@ -87,21 +103,40 @@ window.addEventListener("resize", handleResize);
       
             <div className={`navbarmobile ${open ? "active" : ""}`}>
             <ul className="navlist">
-                <li>Login</li>
+
+              <li>
+                <Link to="/home" onClick={closeMenu}>Home</Link>
+                </li>
+              <hr />
+                <li>
+                  <Link to="/login" onClick={closeMenu}>Login</Link>
+                  </li>
                     <hr />
-                    <li>Membership</li>
+                    <li>
+                      <Link to="/membership" onClick={closeMenu}>Membership</Link>
+                      </li>
                     <hr />
-                    <li>Grouplessons</li>
+                    <li>
+                      <Link to="/grouplessons" onClick={closeMenu}>Grouplessons</Link>
+                      </li>
                     <hr />
-                    <li>Daypas</li>
+                    <li>
+                      <Link to="/membership"onClick={closeMenu} >Daypas</Link>
+                      </li>
                     <hr />
                     <li className="locaties">choose locaties</li>
 
-                    <li className="locationheader">noorderplein</li>
+                    <li className="locationheader">
+                      <Link to="noorderplein" onClick={closeMenu}>noorderplein</Link>
+                      </li>
                     <hr />
-                    <li className="locationheader">westoomstraat</li>
+                    <li className="locationheader">
+                      <Link to=""onClick={closeMenu}>westoomstraat</Link>
+                      </li>
                     <hr />
-                    <li className="locationheader">oosterdokplein</li>
+                    <li className="locationheader">
+                      <Link to=""onClick={closeMenu}>oosterdokplein</Link>
+                      </li>
                     <li>
                        <img src="./pics/gym-svgrepo-com.svg" className="svgbar"/>  
                     </li>
