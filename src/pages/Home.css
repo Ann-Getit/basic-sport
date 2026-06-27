@@ -114,6 +114,9 @@ margin: 0 auto;
   .firstStroke p {
     font-size: 10px;
   }
+  .buttonwrap button {
+    width: 120px;
+  }
 }
 
 
