@@ -54,37 +54,37 @@ const Footer = () => {
             <div className="opening-hours">
                 <div className="row">
                     <span>maandag</span>
-                    <span>06:00  -  22:00</span>
+                    <span>11:00  -  22:00</span>
                    
                 </div>
                 <div className="row">
                     <span>dinsdag</span>
-                    <span>06:00  -  22:00</span>
+                    <span>11:00  -  22:00</span>
         
                 </div>
                 <div className="row">
                     <span>woensdag</span>
-                    <span>06:00  -  22:00</span>
+                    <span>11:00  -  22:00</span>
 
                 </div>
                  <div className="row">
                     <span>donderdag</span>
-                    <span>06:00  -  22:00</span>
+                    <span>11:00  -  22:00</span>
         
                 </div>
                  <div className="row">
                     <span>vrijdag</span>
-                    <span>06:00  -  22:00</span>
+                    <span>11:00  -  23:00</span>
        
                 </div>
                  <div className="row">
                     <span>zaterdag</span>
-                    <span>08:00  -  22:00</span>
+                    <span>12:00  -  00:00</span>
        
                 </div>
                  <div className="row">
                     <span>zondag</span>
-                    <span>08:00  -  22:00</span>
+                    <span>12:00  -  00:00</span>
                 </div>
         
             </div>
