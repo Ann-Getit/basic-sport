@@ -130,6 +130,7 @@ margin: 20px 0;
     border-radius: 50px;
     font-size: 20px;
     cursor: pointer;
+    color: black;
 }
 
 
@@ -253,5 +254,11 @@ background-color: black;
 .choosebutton:hover {
     border: 2px solid  rgb(230, 110, 110);
    
+}
+}
+
+@media  (max-width: 499px) {
+.choosebutton {
+    border: 2px solid black;
 }
 }

@@ -109,6 +109,17 @@ margin: 0 auto;
 
 
 }
+
+
+
+
+/*           ------------------------------------                 */
+
+
+.doorgetrokken {
+  text-decoration: line-through;
+
+}
 @media screen and (max-width: 499px) {
   
   .firstStroke p {
@@ -117,13 +128,14 @@ margin: 0 auto;
   .buttonwrap button {
     width: 120px;
   }
+  
 }
 
 
 
-/*           ------------------------------------                 */
 
-
+/*-------------------------------------------- ---------------------*/
+/*
 .abonnee {
   display: flex;
   flex-direction: row;
@@ -174,9 +186,9 @@ p .span {
   line-height: 0.5;
   margin-left: -1px;
  
-}
+}*/
 /*971*/
-.span2{
+/*.span2{
 background-color: whitesmoke;
   margin: 0 auto;
   width: 30%;
@@ -191,7 +203,7 @@ width: 390px;
 margin: 0 auto;
 }
 
-
+/*
 .abobox ul {
   list-style: none;
 }
@@ -200,26 +212,22 @@ margin: 0 auto;
   padding: 10px 0;
 }
 
-.abobox li,  .span {
+.abobox li,  .span {*/
 /*letter-spacing: 2px;*/
-padding: 10px 0;
+/*padding: 10px 0;
 margin: 0 30px 
 
-}
-
-.doorgetrokken {
-  text-decoration: line-through;
-
-}
+}*/
 
 
 
+/*
 .wrapbut {
   display: flex;
 
-  padding: 0 0 10px 0;
-}
+  padding: 0 0 10px 0;}*/
 
+/*
 .abobox button {
 margin: 0 auto;
 width: 150px;
@@ -230,10 +238,4 @@ border-radius: 25%;
 font-weight: 600;
   border: none;
 
-}
-/*
-@media (max-width: 499px) {
-  .paragrafstroke {
-    font-size: 10px;
-  }
 }*/
