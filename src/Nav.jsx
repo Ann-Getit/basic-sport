@@ -92,10 +92,6 @@ window.addEventListener("resize", handleResize);
                     <li>
                       <Link to="/grouplessons">Grouplessons</Link>
                       </li>
-                    <hr />
-                    <li>
-                      <Link to="/membership">Daypas</Link>
-                      </li>
            
          
             </ul>
@@ -118,10 +114,6 @@ window.addEventListener("resize", handleResize);
                     <hr />
                     <li>
                       <Link to="/grouplessons" onClick={closeMenu}>Grouplessons</Link>
-                      </li>
-                    <hr />
-                    <li>
-                      <Link to="/membership"onClick={closeMenu} >Daypas</Link>
                       </li>
                     <hr />
                     <li className="locaties">choose locaties</li>

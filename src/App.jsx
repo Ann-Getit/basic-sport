@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom"; /* tussen paginas navigeren*/
+import { Routes, Route, Navigate } from "react-router-dom"; /* tussen paginas navigeren*/
 import Home from "./pages/Home";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -11,9 +11,8 @@ function App() {
 
     <Nav />
     <Routes>
-
-
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Navigate to="/home" />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/membership" element={<Membership />} />
 
 
