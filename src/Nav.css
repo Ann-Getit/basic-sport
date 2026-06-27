@@ -214,6 +214,21 @@ overflow: hidden;
 
 
 @media (max-width: 499px) {
+
+.navHeader {
+  font-size: 22px;
+  align-content: center;
+}
+.hamburger {
+  position: absolute;
+  right: 50px;
+
+}
+}
+
+
+/*
+@media (max-width: 499px) {
   nav {
     padding: 0;
   }
@@ -226,3 +241,4 @@ overflow: hidden;
 }
 
 }
+*/
