@@ -135,7 +135,9 @@ letter-spacing: 1px;
 
 
 #bottom {
-    padding: 15px;
+
+    max-height: 0;
+    height: 100%;
   text-align: center;
   font-size: 18px;
 }
@@ -144,6 +146,8 @@ letter-spacing: 1px;
 #copyright {
    grid-column: 1 / -1; /*dit zorgt ervoor dat je content niet breekt wanneer je meerdere layout hebt. */
 }
+
+
 
 
 

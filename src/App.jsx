@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Membership from "./pages/Membership";
+import Grouplessons from "./pages/Grouplessons";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
       <Route path="/membership" element={<Membership />} />
+      
 
 
     </Routes>
