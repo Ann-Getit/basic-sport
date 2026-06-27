@@ -97,6 +97,7 @@ height: 300px;
 .buttonlogin {
     background-color: rgba(243, 171, 136, 0.864);
     color: white;
+    border: none;
 }
 
 
@@ -104,14 +105,15 @@ height: 300px;
      background-color: rgba(243, 172, 136, 0.708);
 }
 .buttonlogin2 {
-background-color: rgba(245, 245, 245, 0.884);
+color: white;
+    background-color: black;
+    border: none;
 }
 
 .buttonlogin2:hover{
-    background-color: rgba(245, 245, 245, 0.805);
+      background-color: rgba(245, 245, 245, 0.916);
+    color: black; 
 }
-
-
 
 
 @media (max-width: 796px) {
@@ -131,22 +133,35 @@ background-color: rgba(245, 245, 245, 0.884);
 .afbeelding {
 display: none;
 }
-.buttonlogin2 {
-    color: white;
-    background-color: black;
-}
-.buttonlogin2:hover {
-    background-color: rgba(245, 245, 245, 0.916);
-    color: black;
-}
-.buttonlogin:hover {
-    border: none;
+
+
+.buttonlogin {
+border: none;
 }
 }
 
 @media (max-width: 499px) {
  .inputcontainer {
+margin: 0;
+}
+.buttonlogin2:hover{
+background-color: rgba(245, 245, 245, 0.916);
+color: black; 
+}
 
-    margin: 0;
+.buttonlogin2 {
+color: white;
+ background-color: black;
+border: none;
+}
+
+.buttonlogin {
+    background-color: rgba(243, 171, 136, 0.864);
+    color: white;
+    border: none;
+}
+.buttonlogin:hover{
+     background-color: rgba(243, 172, 136, 0.708);
 }
 }
+
