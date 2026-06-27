@@ -7,10 +7,8 @@ const Grouplessons = () => {
 
     return (
         <>
-        
 
-
-
+        <div>hello world!</div>
 
 
         

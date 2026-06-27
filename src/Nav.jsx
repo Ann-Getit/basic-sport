@@ -72,8 +72,7 @@ window.addEventListener("resize", handleResize);
         >
           &#9783;
         </div>
-
-
+        
             <div className={`navbardesk ${open ? "active" : ""}`}>
             <ul className="navlistdesk">
                  
@@ -129,21 +128,14 @@ window.addEventListener("resize", handleResize);
                     <li className="locationheader">
                       <Link to=""onClick={closeMenu}>oosterdokplein</Link>
                       </li>
+                    
                     <li>
                        <img src="./pics/gym-svgrepo-com.svg" className="svgbar"/>  
                     </li>
             </ul>
-           
-
             </div>
         </nav>
-       
-
-
         </>
     )
-
-
-
 }
-export default Nav
+export default Nav;

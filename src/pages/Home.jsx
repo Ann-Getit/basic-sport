@@ -1,12 +1,10 @@
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
 
 
 
 const Home = () => {
-
-
-
-
+    const navigate = useNavigate();
 
     return (
         <>
@@ -22,8 +20,8 @@ const Home = () => {
         <div className="imagewrapper">
         <img src="./pics/homepage.jpg" alt="gym" />
         <div className="buttonwrap">
-        <button className="imgbtn">Join us ! </button>
-        <button className="imgbtn">Login </button>
+        <button className="imgbtn" onClick={() => navigate("/membership")}>Join us ! </button>
+        <button className="imgbtn" onClick={() => navigate("/login")}>Login </button>
         </div>
         </div>
 {/*<div className="breedte">
@@ -63,7 +61,7 @@ const Home = () => {
                 <span className="centjes">99</span>
                 <span className="week">per maand</span>
             </div>
-             <button className="choosebutton">choose plan</button>
+             <button className="choosebutton"  onClick={() => navigate("/membership")}>choose plan</button>
         </div>
 
         <div className="divmember">
@@ -89,7 +87,7 @@ const Home = () => {
                 <span className="centjes">99</span>
                 <span className="week">per maand</span>
             </div>
-             <button className="choosebutton">choose plan</button>
+             <button className="choosebutton"  onClick={() => navigate("/membership")}>choose plan</button>
         </div>
         </div>
         <div></div>

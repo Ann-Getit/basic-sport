@@ -4,10 +4,10 @@
     color: black;
     display: flex;
 
-     overflow: hidden;
-  white-space: nowrap;
-    
+    overflow: hidden;
+    white-space: nowrap;
 }
+
 .track {
   display: flex;
   width: max-content;
