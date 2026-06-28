@@ -1,0 +1,122 @@
+
+
+
+
+
+.boxstroke22 {
+  border-radius: 200px 200px 0 0;
+   background-color:rgb(170, 145, 95);
+    margin-top: 50px;
+}
+.positivetextt {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.secondstroke p {
+    color: black;
+    padding-top: 10px;
+    
+}
+@media screen and (max-width: 901px) {
+
+
+    .container1 {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+
+     .twinparent1 {
+        background-color:black ;
+        color: whitesmoke;
+        width: 100%;
+        padding: 10px 50px;
+        margin: -150px 0 -50px 0; 
+    }
+
+ 
+
+.buttonparent {
+margin: 0 auto;
+padding: 0 0 20px 0;
+}
+
+
+.buttonparent button{
+ background-color: rgba(243, 172, 136, 0.094);
+    width: 200px;
+    height: 50px;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+
+.buttonparent button:hover {
+color: rgb(230, 110, 110);
+border: 2px solid rgb(230, 110, 110);
+} 
+
+.twinparent1 h1{
+ color: rgb(230, 110, 110);
+} 
+
+.memberP:hover{
+ color: rgb(230, 110, 110);
+}
+
+
+.boxstroke22 {
+   border-radius: 150px 150px 0 0;
+   margin-top: 80px;
+}
+
+.positivetextt {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+ 
+}
+.secondstroke p {
+    color: black;
+    padding-top: 30px;
+}
+}
+
+
+
+@media screen and (max-width: 499px) {
+.boxstroke22 {
+    display: flex;
+   border-radius: 150px 150px 0 0;
+   margin-top: 80px;
+     border: 1px solid red;
+
+
+}
+
+
+.positivetextt {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+      border: 1px solid red;
+}
+
+    
+    .secondstroke p {
+    color: black;
+    padding-top: 30px;
+}
+}
+
+@media screen and (min-width: 963px) {
+    .boxstroke22 {
+        margin: 0 100px;
+    }
+}
