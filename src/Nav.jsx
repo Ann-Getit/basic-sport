@@ -118,15 +118,15 @@ window.addEventListener("resize", handleResize);
                     <li className="locaties">choose locaties</li>
 
                     <li className="locationheader">
-                      <Link to="noorderplein" onClick={closeMenu}>noorderplein</Link>
+                      <Link to="#" onClick={closeMenu}>noorderplein</Link>
                       </li>
                     <hr />
                     <li className="locationheader">
-                      <Link to=""onClick={closeMenu}>westoomstraat</Link>
+                      <Link to="#"onClick={closeMenu}>westoomstraat</Link>
                       </li>
                     <hr />
                     <li className="locationheader">
-                      <Link to=""onClick={closeMenu}>oosterdokplein</Link>
+                      <Link to="#"onClick={closeMenu}>oosterdokplein</Link>
                       </li>
                     
                     <li>
