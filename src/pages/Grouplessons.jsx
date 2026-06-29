@@ -128,14 +128,14 @@ behavior:"smooth"
 </div>
 
 <div className="liveclasbox"> 
-      <img src="./pics/cardio-unsplash (1).jpg" />
+      <img src="./pics/fietsen-unsplash.jpg" />
          <h3>Cycle</h3>
     <p>An indoor cycling workout with motivational music that helps you push your limits and finish feeling strong</p>
 
 </div>
 
 <div className="liveclasbox">
-      <img src="./pics/fietsen-unsplash.jpg" />
+      <img src="./pics/cardio-unsplash (1).jpg" />
          <h3>Cardio</h3>
     <p>Stay on the move, strengthen your condition and feel fitter after every session.</p>
 
