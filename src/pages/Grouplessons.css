@@ -94,6 +94,7 @@ margin-bottom: 50px;
     margin: 0 50px;
 }
 
+
 .liveclas::-webkit-scrollbar{
 
 display:none;
@@ -292,6 +293,14 @@ border: 2px solid rgb(230, 110, 110);
 
 
 
+@media screen and (min-width: 963px) {
+    .boxstroke22 {
+        margin: 0 100px;
+    }
+}
+
+
+
 @media screen and (max-width: 499px) {
 .boxstroke22 {
     display: flex;
@@ -316,18 +325,40 @@ border: 2px solid rgb(230, 110, 110);
 
 .styletext { 
 
+
     margin: 150px auto;
 }
 
 #stylebutton {
+    
 margin-left: 11.5px;
 }
 
-
+.carousel {
+    display: flex;
+    justify-content: center;
+    
 }
 
-@media screen and (min-width: 963px) {
-    .boxstroke22 {
-        margin: 0 100px;
+    .arrow {
+        font-size: 40px;
+        padding-right: 20px;
+    }
+    .arrow2 {
+
+  font-size: 40px;
+  padding-left: 20px;
+    }
+
+    .liveclas {
+        display: flex;
+     overflow-x: hidden;
+     gap: 50px;
+     scroll-snap-type: x mandatory;
+     width: calc(100% - 100px);
+      margin-top: 50px;
     }
 }
+
+
+

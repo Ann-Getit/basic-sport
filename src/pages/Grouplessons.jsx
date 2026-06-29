@@ -15,9 +15,11 @@ const Grouplessons = () => {
 
 setActive(index);
 
+const card = sliderRef.current.children[index];
+
 sliderRef.current.scrollTo({
 
-left:index*360,
+left: card.offsetLeft,
 
 behavior:"smooth"
 
