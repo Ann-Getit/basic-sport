@@ -1,10 +1,29 @@
 import "./Grouplessons.css";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { useRef } from "react";
+
 
 const Grouplessons = () => {
     const navigate = useNavigate();
+    const [active, setActive] = useState(0);
+    const sliderRef = useRef(null);
+    const totalCards = 6;
 
 
+    const moveTo = (index)=>{
+
+setActive(index);
+
+sliderRef.current.scrollTo({
+
+left:index*360,
+
+behavior:"smooth"
+
+});
+
+};
     return (
         <>
 
@@ -74,15 +93,14 @@ const Grouplessons = () => {
     Everything that can help you build strength</p>
     </div>
 
-<div className="liveclas">
+
+  
+<div className="liveclas"ref={sliderRef} >
 <div className="liveclasbox">
     <img src="./pics/bodyandmind-unsplash.jpg" />
     <h3>Body & mind</h3>
     <p>Train your body and give your mind time to rest and recharge</p>
-    <div className="buttonparent buttonparentclas" >
 
-    <button className="imgbtn" id="stylebutton2"onClick={() => navigate("/membership")}>more information</button>
-    </div>
 </div>
 
 
@@ -90,46 +108,83 @@ const Grouplessons = () => {
       <img src="./pics/strenghtandshape-unsplash.jpg" />
       <h3>Strenght & Shape</h3>
     <p>Strengthen, shape and build your body with focused, consistent training.</p>
-    <div className="buttonparent buttonparentclas" >
-    <button className="imgbtn" id="stylebutton2"onClick={() => navigate("/membership")}>more information</button>
-</div>
+
 </div>
 
 <div className="liveclasbox"> 
       <img src="./pics/pilates-unsplash.jpg" />
          <h3>Pilates</h3>
-    <p>Train your body and improve your technique with challenging and effective sessions.</p>
-    <div className="buttonparent buttonparentclas">
-    <button className="imgbtn" id="stylebutton2"onClick={() => navigate("/membership")}>more information</button>
-</div>
+    <p>A core-workout that strengthens your core and back muscles while improving posture and stability.</p>
+
 </div>
 
 <div className="liveclasbox">
       <img src="./pics/dance-unsplash.jpg" />
          <h3>Dance</h3>
     <p>Shake the stress away with feel-good moves and amazing music.</p>
-    <div className="buttonparent buttonparentclas">
-    <button className="imgbtn" id="stylebutton2"onClick={() => navigate("/membership")}>more information</button>
-</div>
+
 </div>
 
 <div className="liveclasbox"> 
       <img src="./pics/cardio-unsplash (1).jpg" />
          <h3>Cycle</h3>
     <p>An indoor cycling workout with motivational music that helps you push your limits and finish feeling strong</p>
-    <div className="buttonparent buttonparentclas">
-    <button className="imgbtn" id="stylebutton2"onClick={() => navigate("/membership")}>more information</button>
-</div>
+
 </div>
 
 <div className="liveclasbox">
       <img src="./pics/fietsen-unsplash.jpg" />
          <h3>Cardio</h3>
     <p>Stay on the move, strengthen your condition and feel fitter after every session.</p>
-    <div className="buttonparent buttonparentclas">
-    <button className="imgbtn" id="stylebutton2"onClick={() => navigate("/membership")}>more information</button>
+
 </div>
 </div>
+
+
+  <div className="carousel">
+
+<button className="arrow" onClick={()=>
+moveTo(
+Math.max(
+active-1,
+0
+)
+)
+}>
+←
+</button>
+
+{Array(totalCards)
+.fill()
+.map((_, index) => (
+
+<div key={index}
+
+className={
+active === index
+?
+"dot active"
+:
+"dot"
+}
+
+onClick={() => moveTo(index)}
+>
+
+</div>
+))}
+
+
+<button className="arrow2" onClick={()=>
+moveTo(
+Math.min(
+active+1,
+totalCards-1
+)
+)
+}>
+→
+</button>
 
 </div>
         </>
