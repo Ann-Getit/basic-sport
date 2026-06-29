@@ -21,8 +21,10 @@ const Home = () => {
         <img src="./pics/homepage.jpg" alt="gym" />
         <div className="buttonwrap">
         <button className="imgbtn" onClick={() => navigate("/membership")}>Join us ! </button>
+
         <button className="imgbtn" onClick={() => navigate("/login")}>Login </button>
         </div>
+
         </div>
 {/*<div className="breedte">
   {window.innerWidth}px
