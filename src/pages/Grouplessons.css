@@ -1,5 +1,7 @@
 
-
+* {
+    box-sizing: border-box;
+}
 
 
 
@@ -89,9 +91,10 @@ margin-bottom: 50px;
      gap: 50px;
      scroll-snap-type: x mandatory;
      width: calc(100% - 140px);
-    margin-top: 70px;/*-----------*/
+    margin: 0 70px;/*-----------*/
     place-items: center;
-    margin: 0 50px;
+
+
 }
 
 
@@ -102,6 +105,7 @@ display:none;
 }
 
 .liveclasbox {
+    flex: 0 0 350px;
     flex-shrink: 0;
     max-width: 300px;
     width: 100%;
@@ -113,6 +117,7 @@ display:none;
     scroll-snap-align: start;
     border-radius: 30px;
     overflow: hidden;
+
     
 
 }
@@ -352,11 +357,15 @@ margin-left: 11.5px;
 
     .liveclas {
         display: flex;
-     overflow-x: hidden;
-     gap: 50px;
-     scroll-snap-type: x mandatory;
-     width: calc(100% - 100px);
-      margin-top: 50px;
+     gap: 30px;
+    /* width: calc(100% - 75px);*/
+      margin: 0 37.5px;
+      width: auto;
+    }
+
+    .liveclasbox {
+        margin: 0;
+        padding: 0;
     }
 }
 
