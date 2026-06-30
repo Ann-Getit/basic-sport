@@ -10,13 +10,33 @@ const Grouplessons = () => {
     const sliderRef = useRef(null);
     const totalCards = 6;
 
+    let cardsPerView = 1;
 
-    const moveTo = (index)=>{
+if (window.innerWidth >= 1200) {
+  cardsPerView = 4; // desktop
+}
+else if (window.innerWidth >= 768) {
+  cardsPerView = 2; // tablet
+}
+
+const totalSlides =
+Math.ceil(
+totalCards / cardsPerView
+);
+
+const moveTo = (index)=>{
 
 setActive(index);
 
-const card = sliderRef.current.children[index];
+const cardIndex =
+Math.min(
+index * cardsPerView,
+totalCards - 1
+);
 
+const card = sliderRef.current.children[cardIndex];
+
+if(!card) return;
 sliderRef.current.scrollTo({
 
 left: card.offsetLeft,
@@ -156,7 +176,7 @@ active-1,
 ←
 </button>
 
-{Array(totalCards)
+{Array(totalSlides)
 .fill()
 .map((_, index) => (
 
