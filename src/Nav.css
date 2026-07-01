@@ -45,9 +45,6 @@ position: relative;
   width: 15rem;
  
 }
-.locationli li:hover {
-    color: rgba(243, 171, 136, 0.864);
-}
 
 .locationli ul {
    list-style: none;
@@ -57,8 +54,16 @@ position: relative;
 .locationli li {
      padding: 10px 0;
      font-size: 15px;
+     
+     
 } 
-
+.locationli a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.locationli a:hover {
+  color: rgba(243, 171, 136, 0.864);
+}
 .ams {
   font-weight: 800;
 }

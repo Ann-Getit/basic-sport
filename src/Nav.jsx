@@ -49,11 +49,17 @@ window.addEventListener("resize", handleResize);
                 <ul>
                     <li className="ams">Amsterdam :</li>
                   
-                        <li>noorderplein</li>
+                        <li>
+                         <Link to="/locations">Basic & Sport North</Link> 
+                          </li>
                         <hr />
-                        <li>westoomstraat</li>
+                        <li>
+                          <Link to="/locations">Basic & Sport West</Link>
+                          </li>
                         <hr />
-                        <li>oosterdokplein</li>
+                        <li>
+                          <Link to="/locations">Basic & Sport Centre</Link>
+                          </li>
                   
                 </ul>
             </div>
@@ -118,15 +124,15 @@ window.addEventListener("resize", handleResize);
                     <li className="locaties">choose locaties</li>
 
                     <li className="locationheader">
-                      <Link to="#" onClick={closeMenu}>noorderplein</Link>
+                      <Link to="/locations" onClick={closeMenu}>Basic & Sport North</Link>
                       </li>
                     <hr />
                     <li className="locationheader">
-                      <Link to="#"onClick={closeMenu}>westoomstraat</Link>
+                      <Link to="/locations"onClick={closeMenu}>Basic & Sport West</Link>
                       </li>
                     <hr />
                     <li className="locationheader">
-                      <Link to="#"onClick={closeMenu}>oosterdokplein</Link>
+                      <Link to="/locations"onClick={closeMenu}>Basic & Sport Centre</Link>
                       </li>
                     
                     <li>

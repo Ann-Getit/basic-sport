@@ -105,7 +105,7 @@ behavior:"smooth"
     </li>
 </ul>
 <div className="buttonparent" >
-    <button className="imgbtn" id="stylebutton"onClick={() => navigate("/membership")}>find clubs</button>
+    <button className="imgbtn" id="stylebutton"onClick={() => navigate("/locations")}>find clubs</button>
 </div>
 </div>
 

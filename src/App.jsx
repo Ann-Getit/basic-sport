@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Membership from "./pages/Membership";
 import Grouplessons from "./pages/Grouplessons";
 import Login from "./pages/Login";
+import Locations from "./pages/Locations";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Route path="/membership" element={<Membership />} />
       <Route path="/grouplessons" element={<Grouplessons />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/locations" element={<Locations />} />
     </Routes>
 
     <Footer />
