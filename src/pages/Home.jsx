@@ -63,7 +63,7 @@ const Home = () => {
                 <span className="centjes">99</span>
                 <span className="week">per maand</span>
             </div>
-             <button className="choosebutton"  onClick={() => navigate("/membership")}>choose plan</button>
+             <button className="choosebutton"  onClick={() => navigate("/membership")}>more info</button>
         </div>
 
         <div className="divmember">
@@ -89,7 +89,7 @@ const Home = () => {
                 <span className="centjes">99</span>
                 <span className="week">per maand</span>
             </div>
-             <button className="choosebutton"  onClick={() => navigate("/membership")}>choose plan</button>
+             <button className="choosebutton"  onClick={() => navigate("/membership")}>more info</button>
         </div>
         </div>
         <div></div>

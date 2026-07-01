@@ -14,7 +14,7 @@ const Membership = () => {
             </p>
 
             <div className="buttonparent">
-            <button>Join us !</button>
+            <button>Find clubs !</button>
             </div>
 
         </div>
