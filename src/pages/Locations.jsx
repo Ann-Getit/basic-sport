@@ -2,8 +2,9 @@ import "./Locations.css";
 import { useEffect, useState }from "react";
 import L from 'leaflet';
 import "leaflet/dist/leaflet.css";
-const Locations = () => {
 
+const Locations = () => {
+    
     const [open, setOpen]=useState(false);
 
     useEffect(() => {

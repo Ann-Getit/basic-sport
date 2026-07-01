@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from "react-router-dom"; /* tussen paginas navigeren*/
+import { Routes, Route, Navigate, useLocation} from "react-router-dom"; /* tussen paginas navigeren*/
 import Home from "./pages/Home";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -8,6 +8,7 @@ import Login from "./pages/Login";
 import Locations from "./pages/Locations";
 
 function App() {
+const location = useLocation();
 
   return(
     <>
@@ -21,7 +22,7 @@ function App() {
       <Route path="/locations" element={<Locations />} />
     </Routes>
 
-    <Footer />
+     {location.pathname !== "/locations" && <Footer />}
     </>
   );
 
