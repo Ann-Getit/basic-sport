@@ -22,7 +22,7 @@ const location = useLocation();
       <Route path="/locations" element={<Locations />} />
     </Routes>
 
-     {location.pathname !== "/locations" && <Footer />}
+     {!["/locations", "/login"].includes(location.pathname) && <Footer />}
     </>
   );
 
