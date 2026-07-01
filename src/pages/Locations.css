@@ -187,10 +187,10 @@ display: none;
 
 
     .body-locations{ 
-    height: 93vh;
+    height: 92vh;
     }
     .parent-locations.open{
-        height: 92%; /* ??????*/
+        height: 83vh;
         width: 50%;
         overflow-y: auto;
         margin: 0;
